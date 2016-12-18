@@ -3,8 +3,6 @@ def badge_maker(name)
 	"Hello, my name is #{name}."
 end
 
-badge_maker("Max")
-
 def batch_badge_creator(array_of_names)
 	badges = [] #array of badge messages
 	index = 0
@@ -18,8 +16,6 @@ def batch_badge_creator(array_of_names)
 	#return badges
 	badges
 end
-
-batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 
 def assign_rooms(attendees)
 	#rooms 1-7, array length = 7, 0-6 indexes
@@ -38,7 +34,6 @@ def assign_rooms(attendees)
 	room_assignments
 end
 
-assign_rooms(["Ed"])
 
 def printer(attendees)
 	index = 0
@@ -50,5 +45,3 @@ def printer(attendees)
 		index += 1
 	end
 end
-
-printer(["Ed", "Steven"])
